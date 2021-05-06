@@ -4,3 +4,47 @@ html, body {
     height: 100%;
 }
 
+div{
+    width: 200px;
+    height: 200px;
+}
+
+.helloworld{
+    background-color: orange ;
+    margin: 0 auto;
+    position: relative;
+    left: 5px;
+    top: 7px;
+}
+.box1 {
+    background-color: red;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.box2 {
+    background-color: lightpink;
+    position: absolute;
+    z-index: 20;
+    left: 10px;
+    bottom: 10px;
+
+}
+
+.box3 {
+    background-color: blue;
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+
+}
+
+main{
+    margin: 50px;
+    position: relative;
+    background-color: coral;
+    height: 80vh;
+    width: 50vw;
+    
+}
